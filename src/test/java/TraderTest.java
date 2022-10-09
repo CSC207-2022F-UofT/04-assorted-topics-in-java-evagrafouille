@@ -25,7 +25,7 @@ public class TraderTest {
 
     @Test(timeout = 50)
     public void TestAddToWishlist() {
-        trader.addToWishlist(new Horse());
+        trader.addToWishList(new Horse());
         assertEquals(1, trader.getWishlist().size());
     }
 
